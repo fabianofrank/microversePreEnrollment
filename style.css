@@ -1,0 +1,35 @@
+.green-bg {
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 0rem 1rem;
+    background-color: green;
+}
+.blue-bg {
+    margin: 0rem 0rem -1rem;
+    background-color: blue;
+}
+.pink-bg {
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 0rem 0rem;
+    background-color: blueviolet;
+
+}
+.yellow-bg { 
+    margin: 0rem -1rem 0rem 2rem;
+    background-color: yellow;
+
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-item {
+    flex: 1 1 10%;
+}
+.responsive-main {
+    max-width: 100%;
+    width: 65vw;
+}
+.nobullets {
+    list-style: none;
+}
